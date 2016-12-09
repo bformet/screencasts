@@ -1,0 +1,26 @@
+<div class="slide">
+  
+  <div class="top-split">
+
+    <div class="top-right" ng-show="showIFrame" ng-if="example.iframe" >
+      <!-- Tried getting dynamic code changes with srcdoc="{{iFrameSrcDoc}}", ran into base URL issues. -->
+      <iframe ng-src="{{iframe}}" frameBorder="0" srcdoc="{{iFrameSrcDoc}}"></iframe>
+      <!-- <iframe ng-src="{{iframe}}" frameBorder="0"></iframe> -->
+    </div>
+
+    <div class="top-left">
+      <h1 class="page-title title-text" ng-if="example.title"><a href="{{iframe}}" target="_blank" >{{example.title}}</a></h1>
+      <h3 class="subtitle-text" ng-if="example.subtitle">{{example.subtitle}}</h3>
+      <div class="readme" ng-bind-html="slide"></div>
+    </div>
+
+  </div>
+
+  <div class="files-container">
+    <div ng-repeat="file in example.files">
+      <div class="file-name">{{getFileName(file)}}</div>
+      <textarea file="file" example="example" class="text-editor"></textarea>
+    </div>
+  </div>
+
+</div>

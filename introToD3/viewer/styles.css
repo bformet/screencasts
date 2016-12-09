@@ -1,0 +1,146 @@
+/**
+ * CSS for the example viewer application.
+ *
+ * Benoit Formet 2016
+ * based on initial work from Curran Kelleher
+ */
+
+/* Import Google Font. */
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+/**** Begin styles for all views. ****/
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Droid Serif', sans-serif;
+  margin: 20px;
+  color: #253634;
+}
+
+/* Center the title part of the page. */
+.centered {
+  text-align: center;
+}
+
+/* Make the title large and move it down a little so it is more vertically centered. */
+.page-title {
+  font-size: 5em;
+  padding-top: 5px;
+  margin: 0px;
+  font-weight: normal;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.subtitle-text {
+  margin: 0px;
+  font-size: 2.8em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: normal;
+}
+
+.example-entry {
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.readme {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+
+.readme small {
+  color: #999;
+}
+
+.title-text a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul ul ul {
+  list-style-type: circle;
+}
+/**** Begin styles for the list view only. ****/
+
+.title-screen {
+  font-size: 1.2em;
+  height: calc(100vh - 100px);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+/**** Begin styles for the details view only. ****/
+
+/**
+ * Style code editors on the details view.
+ * Autoresize code from http://codemirror.net/demo/resize.html
+ */
+.CodeMirror {
+  // border: 2px solid #333;
+  height: auto;
+  font-size: 1.5em;
+  padding: 20px;
+  margin: 0 20px;
+}
+.CodeMirror-scroll {
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  /* Limit height for the case of large JSON files */
+  max-height: 1500px;
+}
+
+.top-split {
+  min-height: 300px;
+}
+
+.top-left {
+  // float: left; 
+  // width: 50%;
+  // height: 100%;
+  padding: 10px 20px;
+}
+
+.top-right {
+  position: fixed;
+  float: right;
+  right: 40px;
+  top: 20px;
+  width: 550px;
+  height: 300px;
+  z-index: 100;
+  background: white;
+}
+
+/* Size the iFrame that contains the running example. */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 2px lightgray solid; 
+  padding: 10px;
+}
+
+/* Style the names of source code files. */
+.file-name {
+  font-size: 1.5em;
+  padding-top: 15px;
+  padding-left:20px;
+}
+
+/* Style the video. */
+video{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius:150px;
+}

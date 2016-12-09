@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Example</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  </head>
+  <body>
+    <svg width="500" height="250"></svg>
+
+    <script>
+
+        var cities = [
+          {name: 'London', population: 8416500, continent: 'Europe'},
+          {name: 'New York City', population: 8419000, continent: 'North America'},
+          {name: 'Paris', population: 2241000, continent: 'Europe'},
+          {name: 'Shanghai', population: 24150000, continent: 'Asia'},
+          {name: 'Tokyo', population: 13297000, continent: 'Asia'}
+        ];
+
+        var radiusScale = d3.scale.sqrt().domain([0, 25000000]).range([0, 50]);
+
+        var colourScale = d3.scale.ordinal()
+            .domain(['Europe', 'North America', 'Asia'])
+            .range(['#66c2a5', '#8da0cb', '#fc8d62']);
+
+        function update() {
+
+          // Selection and data join
+          var sel = d3.select('svg').selectAll('circle').data(cities)
+
+          // Enter new nodes
+          sel.enter()
+            .append('circle')
+              .attr('cx', function(d,i) { return 50 + i*100 })
+              .attr('cy', 125)
+
+          // Exit old nodes
+          // sel.exit()
+              // .remove()
+
+          // Update existing nodes
+          sel
+            .attr('r', function(d) {
+                return radiusScale(d.population);
+            })
+            .style('fill', function(d) {
+                return colourScale(d.continent);
+            });          
+        }
+
+        update();
+
+        // cities.pop();
+        // update();
+        // cities.pop();
+        // update();
+        // cities.pop();
+        // update();
+        // cities.push({name: 'Madrid', population: 3165000, continent: 'Europe'});
+        // update();
+
+    </script>
+  </body>
+</html>

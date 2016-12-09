@@ -1,0 +1,434 @@
+[
+  {
+    "title": "Data-Driven Documents",
+    "subtitle": "Qu'est-ce que D3 ?",
+    "slide": "whatsD3.md"
+  },
+  {
+    "title": "Data-Driven Documents",
+    "subtitle": "Historique",
+    "slide": "historique.md"
+  },
+  {
+    "title": "Data-Driven Documents",
+    "subtitle": "Comparaison",
+    "slide": "comparaison.md"
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Hello SVG",
+    "slide": "../examples/snapshot02/README.md",
+    "files": [
+      "snapshot02/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Default SVG size",
+    "slide": "../examples/snapshot03/README.md",
+    "files": [
+      "snapshot03/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Specifying SVG dimensions",
+    "slide": "../examples/snapshot04/README.md",
+    "files": [
+      "snapshot04/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Specifying SVG viewBox",
+    "slide": "../examples/snapshot04b/README.md",
+    "files": [
+      "snapshot04b/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Adding (x, y) coordinates",
+    "slide": "../examples/snapshot05/README.md",
+    "files": [
+      "snapshot05/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Adding color",
+    "slide": "../examples/snapshot06/README.md",
+    "files": [
+      "snapshot06/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Transparency with rgba()",
+    "slide": "../examples/snapshot08/README.md",
+    "files": [
+      "snapshot08/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Drawing outlines with stroke",
+    "slide": "../examples/snapshot10/README.md",
+    "files": [
+      "snapshot10/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Controlling stroke width",
+    "slide": "../examples/snapshot11/README.md",
+    "files": [
+      "snapshot11/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Using fill=none",
+    "slide": "../examples/snapshot12/README.md",
+    "files": [
+      "snapshot12/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Drawing a circle",
+    "slide": "../examples/snapshot13/README.md",
+    "files": [
+      "snapshot13/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "cx and cy",
+    "slide": "../examples/snapshot14/README.md",
+    "files": [
+      "snapshot14/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "stroke and width",
+    "slide": "../examples/snapshot15/README.md",
+    "files": [
+      "snapshot15/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "drawing a line",
+    "slide": "../examples/snapshot16/README.md",
+    "files": [
+      "snapshot16/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "drawing several lines",
+    "slide": "../examples/snapshot17/README.md",
+    "files": [
+      "snapshot17/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "using SVG paths",
+    "slide": "../examples/snapshot18/README.md",
+    "files": [
+      "snapshot18/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "drawing several lines with a path",
+    "slide": "../examples/snapshot19/README.md",
+    "files": [
+      "snapshot19/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "filling a path",
+    "slide": "../examples/snapshot20/README.md",
+    "files": [
+      "snapshot20/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "closing a path",
+    "slide": "../examples/snapshot21/README.md",
+    "files": [
+      "snapshot21/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "pseudo scatterplot",
+    "slide": "../examples/snapshot22/README.md",
+    "files": [
+      "snapshot22/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "the g element",
+    "slide": "../examples/snapshot23/README.md",
+    "files": [
+      "snapshot23/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "pseudo bar chart",
+    "slide": "../examples/snapshot24/README.md",
+    "files": [
+      "snapshot24/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "pseudo line chart",
+    "slide": "../examples/snapshot25/README.md",
+    "files": [
+      "snapshot25/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "SVG Text",
+    "slide": "../examples/snapshot26/README.md",
+    "files": [
+      "snapshot26/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "SVG",
+    "subtitle": "Styling SVG with CSS",
+    "slide": "../examples/snapshot28/README.md",
+    "files": [
+      "snapshot28/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "Loading data",
+    "subtitle": "loading CSV data",
+    "slide": "../examples/snapshot46/README.md",
+    "files": [
+      "snapshot46/index.html",
+      "snapshot46/data.csv"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Loading data",
+    "subtitle": "Concatenating unparsed strings",
+    "slide": "../examples/snapshot47/README.md",
+    "files": [
+      "snapshot47/index.html",
+      "snapshot47/data.csv"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Loading data",
+    "subtitle": "Parsing CSV data",
+    "slide": "../examples/snapshot48/README.md",
+    "files": [
+      "snapshot48/index.html",
+      "snapshot48/data.csv"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Loading data",
+    "subtitle": "Parsing CSV data",
+    "slide": "../examples/snapshot49/README.md",
+    "files": [
+      "snapshot49/index.html",
+      "snapshot49/data.csv"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Loading data",
+    "subtitle": "loading JSON data",
+    "slide": "../examples/snapshot49b/README.md",
+    "files": [
+      "snapshot49b/index.html",
+      "snapshot49b/data.json"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Scale",
+    "subtitle": "D3 linear scale",
+    "slide": "../examples/snapshot50/README.md",
+    "files": [
+      "snapshot50/index.html"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Scale",
+    "subtitle": "D3 common patterns",
+    "slide": "../examples/snapshot52/README.md",
+    "files": [
+      "snapshot52/index.html"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Scale",
+    "subtitle": "D3 ordinal scale",
+    "slide": "../examples/snapshot53/README.md",
+    "files": [
+      "snapshot53/index.html"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Scale",
+    "subtitle": "rangePoints",
+    "slide": "../examples/snapshot54/README.md",
+    "files": [
+      "snapshot54/index.html"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Scale",
+    "subtitle": "rangeRoundPoints",
+    "slide": "../examples/snapshot55/README.md",
+    "files": [
+      "snapshot55/index.html"
+    ],
+    "iframe": false
+  },
+  {
+    "title": "Selections",
+    "subtitle": "Manipulate the DOM",
+    "slide": "../examples/snapshot57/README.md",
+    "files": [
+      "snapshot57/examples.js"
+    ]
+  },
+  {
+    "title": "Selections",
+    "subtitle": "Example",
+    "files": [
+      "snapshot57/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "Binding data",
+    "subtitle": "binding to single element",
+    "slide": "../examples/bindingdata/README.md",
+    "files": [
+      "bindingdata/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "Binding data",
+    "subtitle": "binding to a node array",
+    "slide": "../examples/bindingdata2/README.md",
+    "files": [
+      "bindingdata2/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "Binding data",
+    "subtitle": "Cities examples",
+    "slide": "../examples/bindingdatacities/README.md",
+    "files": [
+      "bindingdatacities/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "General update pattern",
+    "subtitle": "Enter new elements",
+    "slide": "../examples/snapshot58/README.md",
+    "files": [
+      "snapshot58/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "General update pattern",
+    "subtitle": "The D3 update phase",
+    "slide": "../examples/snapshot63/README.md",
+    "files": [
+      "snapshot63/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "General update pattern",
+    "subtitle": "The need for exit",
+    "slide": "../examples/snapshot65/README.md",
+    "files": [
+      "snapshot65/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "General update pattern",
+    "subtitle": "Transitions",
+    "slide": "../examples/snapshot67/README.md",
+    "files": [
+      "snapshot67/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "General update pattern",
+    "subtitle": "Callbacks",
+    "slide": "../examples/snapshot68/README.md",
+    "files": [
+      "snapshot68/index.html"
+    ],
+    "iframe": true
+  },
+  {
+    "title": "Examples",
+    "subtitle": "Some more complex examples",
+    "slide": "examples.md"
+  },
+  {
+    "title": "Merci d'avoir suivi",
+    "subtitle": "Questions ?"
+  }
+]
