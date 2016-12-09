@@ -353,7 +353,7 @@
   {
     "title": "Binding data",
     "subtitle": "binding to single element",
-    "slide": "../examples/bindingdata/README.md",
+    "slide": "../examples/bindingdata/readme.md",
     "files": [
       "bindingdata/index.html"
     ],
@@ -362,7 +362,7 @@
   {
     "title": "Binding data",
     "subtitle": "binding to a node array",
-    "slide": "../examples/bindingdata2/README.md",
+    "slide": "../examples/bindingdata2/readme.md",
     "files": [
       "bindingdata2/index.html"
     ],
