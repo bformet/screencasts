@@ -46,17 +46,17 @@ app.factory('examples', function($http){
 });
 
 // This service works with project.json.
-app.factory('project', function($http){
-  return {
-    getData: function (callback){
-      $http({
-        method: 'GET',
-        url: '../project.json',
-        cache: true
-      }).success(callback);
-    }
-  };
-});
+// app.factory('project', function($http){
+//   return {
+//     getData: function (callback){
+//       $http({
+//         method: 'GET',
+//         url: '../project.json',
+//         cache: true
+//       }).success(callback);
+//     }
+//   };
+// });
 
 // Responsible for navigating based on key events.
 app.controller('MainCtrl', function ($scope, $document, $location, examples){
@@ -133,12 +133,12 @@ app.controller('ExampleListCtrl', function ($scope, examples, project){
   examples.list(function(examples) {
     $scope.examples = examples;
   });
-  project.getData(function(project){
-    $scope.title = project.title;
-    $scope.date = project.date;
-    $scope.author = project.author;
-    $scope.authorLink = project.authorLink;
-  });
+  // project.getData(function(project){
+  //   $scope.title = project.title;
+  //   $scope.date = project.date;
+  //   $scope.author = project.author;
+  //   $scope.authorLink = project.authorLink;
+  // });
 });
 
 app.controller('ExampleDetailCtrl',
