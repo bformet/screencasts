@@ -1,0 +1,23 @@
+{
+  "name": "screencasts",
+  "version": "1.0.0",
+  "description": "This repository contains code that goes along with my screencasts and presentations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bformet/screencasts.git"
+  },
+  "author": "Benoit Formet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bformet/screencasts/issues"
+  },
+  "homepage": "https://github.com/bformet/screencasts#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
