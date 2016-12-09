@@ -2,7 +2,8 @@
 
 ## Available slides
 
-* Introduction to D3.js
+* [Introduction to D3.js](http://bformet.github.io/screencasts/introToD3/) 
+
 
 ## Running the slides
 

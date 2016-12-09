@@ -2,6 +2,8 @@
 
 Screencast for "Demandez le programme" @ Inria Saclay, November 2016
 
+[Online slides](http://bformet.github.io/screencasts/introToD3/) 
+
 This tutorial covers fundamental [D3.js](http://d3js.org/) concepts and introduces basic visualizations.
 
  * technologies leveraged by D3
