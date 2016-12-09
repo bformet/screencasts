@@ -7,11 +7,11 @@ var app = angular.module('exampleViewerApp', ['ngRoute']);
 app.config(function($routeProvider) {
   $routeProvider.
     when('/', {
-      templateUrl: 'example-list.html',
+      templateUrl: 'viewer/example-list.html',
       controller: 'ExampleListCtrl'
     }).
     when('/:exampleNumber', {
-      templateUrl: 'example-detail.html',
+      templateUrl: 'viewer/example-detail.html',
       controller: 'ExampleDetailCtrl'
     }).
     otherwise({
@@ -25,7 +25,7 @@ app.factory('examples', function($http){
   function getData(callback){
     $http({
       method: 'GET',
-      url: '../slides.json',
+      url: 'slides.json',
       cache: true
     }).success(callback);
   }
@@ -51,7 +51,7 @@ app.factory('project', function($http){
     getData: function (callback){
       $http({
         method: 'GET',
-        url: '../project.json',
+        url: 'project.json',
         cache: true
       }).success(callback);
     }
@@ -146,12 +146,12 @@ app.controller('ExampleDetailCtrl',
   examples.find($routeParams.exampleNumber, function(example) {
     $scope.example = example;
     if (example.iframe === true) {
-      $scope.iframe = '../examples/' + example.files[0];
+      $scope.iframe = 'examples/' + example.files[0];
     } else {
       $scope.iframe = example.iframe
     }
     if (example.slide) {
-      $http.get('../slides/' + example.slide).success(function(data) {
+      $http.get('slides/' + example.slide).success(function(data) {
         // Remove first line, as it appears elsewhere on the page (called 'message').
         var md = data.split('\n').splice(1).join('\n');
         $scope.slide = $sce.trustAsHtml(marked(md));
@@ -180,7 +180,7 @@ app.directive('file', function(){
     restrict: 'A',
     controller: function($scope, $http){
       var path = [
-        '../examples',
+        'examples',
         $scope.file
       ].join('/');
       $http.get(path).success(function(data) {

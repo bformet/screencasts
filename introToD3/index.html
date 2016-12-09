@@ -1,0 +1,44 @@
+<!--
+  An application for viewing and presenting a sequence of code examples.
+
+  Undertaken to learn Angular.js.
+
+  Based on amazing work from Curran Kelleher
+-->
+<html ng-app="exampleViewerApp">
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Examples Viewer</title>
+
+    <!-- Angular web application framework -->
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-route/angular-route.min.js"></script>
+
+    <!-- CodeMirror syntax highlighing code editor -->
+    <script src="../bower_components/codemirror/lib/codemirror.js"></script>
+    <script src="../bower_components/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="../bower_components/codemirror/mode/xml/xml.js"></script>
+    <script src="../bower_components/codemirror/mode/javascript/javascript.js"></script>
+    <script src="../bower_components/codemirror/mode/css/css.js"></script>
+    <link rel="stylesheet" ng-href="../bower_components/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" ng-href="../bower_components/codemirror/theme/paraiso-dark.css">
+
+    <!-- Marked markdown parser -->
+    <script src="../bower_components/marked/lib/marked.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="viewer/styles.css">
+
+    <!-- Our Angular app -->
+    <script src="viewer/app.js"></script>
+  </head>
+  <body ng-controller="MainCtrl" ng-keydown="onKeydown($event)">
+    <!-- This div will have content injected into it 
+         by Angular based on routes and view templates -->
+    <div ng-view></div>
+
+    <!-- This box shows my face live from the camera. -->
+    <!-- <video width="300" autoplay></video> -->
+
+  </body>
+</html>
