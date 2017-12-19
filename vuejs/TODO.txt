@@ -1,0 +1,4 @@
+# Evolution future
+
+* Ajouter des slides au début pour présenter expliquer le contexte à des non spécialistes du web / dev js
+  - API REST, SPA, client, serveur, BDD, node, npm, ES20xx etc.
